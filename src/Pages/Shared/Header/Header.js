@@ -29,15 +29,15 @@ const Header = () => {
           <Nav className="me-auto">
             <Nav.Link href="home#services">Services</Nav.Link>
             <Nav.Link href="home#experts">Experts</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown title="Mechince" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Mechince 1</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+              Mechince 2
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Mechince 3</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+              Mechince 4
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

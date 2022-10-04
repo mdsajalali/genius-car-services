@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import PageTitle from "../Shared/PageTitle/PageTitle";
 
 const About = () => {
   return (
     <div>
-      <h2>This is About us</h2>
+      <PageTitle title="About" />
+      <h2 className="text-center mt-5">This is About us</h2>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
